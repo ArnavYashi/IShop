@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# 🛒 iShop - Full Stack E-Commerce Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Overview
 
-## Available Scripts
+iShop is a full-stack e-commerce web application built using the MERN stack. The platform allows users to browse products, manage their shopping cart, securely make online payments, and place orders seamlessly. It features user authentication, order management, and an admin dashboard for product administration.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+* User Registration & Authentication
+* Secure Login/Logout Functionality
+* Product Browsing and Search
+* Shopping Cart Management
+* Razorpay Payment Gateway Integration
+* Order Placement and Tracking
+* Admin Dashboard for Product Management
+* Responsive Design for Desktop and Mobile Devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
 
-### `npm test`
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Bootstrap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
 
-### `npm run build`
+* Node.js
+* Express.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Database
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* MongoDB
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Third-Party Services
 
-### `npm run eject`
+* Razorpay Payment Gateway
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📚 Key Learnings
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Built a complete MERN Stack application from scratch
+* Implemented secure payment processing using Razorpay
+* Developed RESTful APIs for products, users, carts, and orders
+* Integrated authentication and authorization mechanisms
+* Managed state and API communication between frontend and backend
+* Designed a responsive and user-friendly interface
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Clone the Repository
 
-## Learn More
+```bash
+git clone <repository-url>
+cd iShop
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Install Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Frontend:
 
-### Code Splitting
+```bash
+cd frontend
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Backend:
 
-### Analyzing the Bundle Size
+```bash
+cd backend
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Configure Environment Variables
 
-### Making a Progressive Web App
+Create a `.env` file in the backend directory and add:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+RAZORPAY_KEY_ID=your_razorpay_key
+RAZORPAY_SECRET=your_razorpay_secret
+```
 
-### Advanced Configuration
+### Run the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Backend:
 
-### Deployment
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Frontend:
 
-### `npm run build` fails to minify
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔮 Future Enhancements
+
+* Product Reviews and Ratings
+* Wishlist Functionality
+* Coupon and Discount System
+* Advanced Product Filtering and Sorting
+* Email Notifications for Orders
+* Inventory Management
+
+## 👨‍💻 Author
+
+**Arnav Tayal**
+
+* B.Tech, IIIT Sonepat
+* Full Stack Developer
+* GitHub: https://github.com/your-github-username
