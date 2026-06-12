@@ -112,4 +112,4 @@ npm start
 
 * B.Tech, IIIT Sonepat
 * Full Stack Developer
-* GitHub: https://github.com/your-github-username
+* GitHub: https://github.com/ArnavYashi
