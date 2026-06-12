@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-iShop is a full-stack e-commerce web application built using the MERN stack. The platform allows users to browse products, manage their shopping cart, securely make online payments, and place orders seamlessly. It features user authentication, order management, and an admin dashboard for product administration.
+iShop is a full-stack e-commerce web application built using the MERN stack. The platform allows users to browse products, manage their shopping cart, securely make online payments, and place orders seamlessly. It features user authentication, order management, and Razorpay payment integration.
 
 ## 🚀 Features
 
@@ -12,8 +12,6 @@ iShop is a full-stack e-commerce web application built using the MERN stack. The
 * Shopping Cart Management
 * Razorpay Payment Gateway Integration
 * Order Placement and Tracking
-* Admin Dashboard for Product Management
-* Responsive Design for Desktop and Mobile Devices
 
 ## 🛠️ Tech Stack
 
@@ -45,7 +43,7 @@ iShop is a full-stack e-commerce web application built using the MERN stack. The
 * Developed RESTful APIs for products, users, carts, and orders
 * Integrated authentication and authorization mechanisms
 * Managed state and API communication between frontend and backend
-* Designed a responsive and user-friendly interface
+* Gained hands-on experience with full-stack web development and database management
 
 ## ⚙️ Installation
 
@@ -104,12 +102,9 @@ npm start
 * Coupon and Discount System
 * Advanced Product Filtering and Sorting
 * Email Notifications for Orders
-* Inventory Management
 
 ## 👨‍💻 Author
 
 **Arnav Tayal**
 
-* B.Tech, IIIT Sonepat
 * Full Stack Developer
-* GitHub: https://github.com/ArnavYashi
